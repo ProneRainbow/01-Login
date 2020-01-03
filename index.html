@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daily UI Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <!------------ Left Side ------------>
+        <div id="left-div-main">
+            <div class="left-image">
+                <!------------ Upper Text ------------>
+                <div class="upper-text">
+                    <span>Join us to become <a href="#">a volunteer</a> </br>
+                    and help stray pets in finding homes</span>
+                </div>
+                <!------------ Lower Text ------------>
+                <div class="lower-text">
+                    <h2>We need you&excl;</h2>
+                </div>
+                <!------------ Image Change Buttons ------------>
+                <div class="image-change-buttons">
+                    <form autocomplete="off">
+                        <label class="container">
+                            <input type="radio" name="radio" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!------------ Right Side ------------>
+        <div id="right-div-main">
+            <!------------ Sign Up Form ------------>
+            <div class="right-sign-up">
+                <div class="form">
+                    <h2>Sign Up</h2>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" name="fullname" maxlength="45" placeholder="Enter your full name"/>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" minlength="6" placeholder="Enter your email"/>
+                    <span>At least 6 characters</span>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" minlength="6" placeholder="Password"/>
+                    <span>At least 6 characters</span>
+                </div>
+                <!------------ Terms and Conditions Checkbox ------------>
+                <div class="terms-checkbox">
+                    <input type="checkbox" name="ts-and-cs" checked="checked"><p> I agree with <a href="#">Terms and Conditions</a></p><br>
+                </div>
+                <!------------ Form Submit Button ------------>
+                <div class="form-button">
+                    <button type="submit" class="form-btn">Sign up</button> 
+                </div>
+                <!------------ Social Media Buttons ------------>
+                <span class="social-media-span">You may also Sign up with</span>
+                <div class="social-icons">
+                    <a href="#" class="social-button icon1">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#"class="social-button icon2">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#"class="social-button icon3">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    
+                </div>
+            </div>
+    </div>
+</div>
+<script src="https://kit.fontawesome.com/84fa5c6755.js" crossorigin="anonymous"></script>
+</body>
+</html>
